@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PAM_672019245</string>
+    <string name="username">Username</string>
+    <string name="full_name">Fullname</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="registration">Registration</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="login">Login</string>
+    <string name="login_form">Login Form</string>
+</resources>
