@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string-array name="headlines">
+        <item>Rusia melakukan latihan kapal selam nuklir di Laut Barents</item>
+        <item>Twitter akan melabeli tweet yang memiliki konten dari media pemerintah Rusia</item>
+        <item>Konduktor musik Rusia dipecat oleh Munich karena mendukung Putin</item>
+    </string-array>
+    <string-array name="articles">
+        <item>
+            Rusia melakukan latihan kapal selam nuklir di Laut Barents, beberapa hari setelah Vladimir Putin memerintahkan pasukan nuklirnya untuk siaga tinggi di tengah invasi ke Ukraina.
+        </item>
+        <item>
+            Twitter akan memberi label dan mengurangi visibilitas untuk tweet yang berisi konten dari situs web media yang berafiliasi dengan pemerintah Rusia seperti RT dan Sputnik.
+        </item>
+        <item>
+            Kota Munich mengumumkan bahwa mereka telah memecat Valery Gergiev sebagai kepala konduktor orkestra philaharmonic atas dukungannya kepada Presiden Rusia Vladimir Putin.
+        </item>
+    </string-array>
+</resources>

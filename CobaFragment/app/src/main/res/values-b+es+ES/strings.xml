@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string-array name="headlines">
+        <item>Rusia realiza ejercicios con submarinos nucleares en el mar de Barents</item>
+        <item>Twitter etiquetará tuits con contenido de medios estatales rusos</item>
+        <item>Director de música ruso despedido de Múnich por apoyar a Putin</item>
+    </string-array>
+    <string-array name="articles">
+        <item>
+            Rusia realiza simulacros de submarinos nucleares en el mar de Barents, días después de que Vladimir Putin ordenara que sus fuerzas nucleares se pusieran en alerta máxima en medio de la invasión de Ucrania.
+        </item>
+        <item>
+            Twitter etiquetará y reducirá la visibilidad de los tuits que contengan contenido de sitios web de medios afiliados al gobierno ruso, como RT y Sputnik.
+        </item>
+        <item>
+            La ciudad de Múnich anunció que había despedido a Valery Gergiev como director titular de la orquesta filarmónica por su apoyo al presidente ruso Vladimir Putin.
+        </item>
+    </string-array>
+</resources>

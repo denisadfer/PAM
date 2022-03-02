@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">CobaFragment</string>
+    <string name="app_name">News App</string>
+    <string-array name="headlines">
+        <item>Russia carries out nuclear submarine drills in Barents Sea</item>
+        <item>Twitter to label tweets having content from Russian state media</item>
+        <item>Russian music conductor fired by Munich over support for Putin</item>
+    </string-array>
+    <string-array name="articles">
+        <item>
+            Russia carries out nuclear submarine drills in Barents Sea, days after Vladimir Putin ordered his nuclear forces to be put on high alert amid invasion of Ukraine.
+        </item>
+        <item>
+            Twitter will be labelling and reducing the visibility for tweets containing content from Russian state-affiliated media websites like RT and Sputnik.
+        </item>
+        <item>
+            The city of Munich announced that it has fired Valery Gergiev as the chief conductor of the phillaharmonic orchestra over his support to Russian President Vladimir Putin.
+        </item>
+    </string-array>
 </resources>
