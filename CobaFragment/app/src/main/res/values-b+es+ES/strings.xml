@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">News App</string>
+    <string name="app_name">Mak NEWS</string>
+    <string name="plus">+</string>
+    <string name="headline">Titular</string>
+    <string name="article">Artículo</string>
+    <string name="image">URL de la imagen</string>
+    <string name="add">Agregar</string>
     <string-array name="headlines">
         <item>Rusia realiza ejercicios con submarinos nucleares en el mar de Barents</item>
         <item>Twitter etiquetará tuits con contenido de medios estatales rusos</item>

@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/denis/AndroidStudioProjects/CobaFragment/app/src/main/res/layout-land/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/denis/AndroidStudioProjects/CobaFragment/app/src/main/res/layout-land/activity_add_new.xml" value="0.22" />
+        <entry key="..\:/Users/denis/AndroidStudioProjects/CobaFragment/app/src/main/res/layout-land/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/denis/AndroidStudioProjects/CobaFragment/app/src/main/res/layout/activity_add_new.xml" value="0.2" />
         <entry key="..\:/Users/denis/AndroidStudioProjects/CobaFragment/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/denis/AndroidStudioProjects/CobaFragment/app/src/main/res/layout/article_view.xml" value="0.2" />
       </map>

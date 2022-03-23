@@ -4,12 +4,16 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ArticleFragment extends Fragment {
     final static String ARG_POSITION = "position";
@@ -17,9 +21,11 @@ public class ArticleFragment extends Fragment {
 
     private ArrayList<String> listHeadline = new ArrayList<>();
     private ArrayList<String> listArticle = new ArrayList<>();
+    private ArrayList<String> listImage = new ArrayList<>();
 
     private TextView txtArticle;
     private TextView txtHeadline;
+    private ImageView image;
     private View view;
 
     @Nullable
@@ -29,27 +35,22 @@ public class ArticleFragment extends Fragment {
             mCurrentPosition = savedInstanceState.getInt(ARG_POSITION);
         }
         view = inflater.inflate(R.layout.article_view, container, false);
-        txtArticle = view.findViewById(R.id.article_content);
         txtHeadline = view.findViewById(R.id.article_title);
+        txtArticle = view.findViewById(R.id.article_content);
+        image = view.findViewById(R.id.article_img);
+        listImage.addAll(Arrays.asList(getResources().getStringArray(R.array.image)));
         return view;
     }
 
     @Override
     public void onStart() {
         super.onStart();
-        Bundle args = getArguments();
-        if(args != null) {
-//            updateArticleView(args.getInt(ARG_POSITION));
-//            cl = args.getStringArrayList(ARG)
-        }
-//        else {
-//            updateArticleView(mCurrentPosition);
-//        }
     }
 
-    public void updateArticleView(int position, ArrayList<String> listArticle, ArrayList<String> listHeadline) {
+    public void updateArticleView(int position, ArrayList<String> listArticle, ArrayList<String> listHeadline, ArrayList<String> listImage) {
         txtHeadline.setText(listHeadline.get(position));
         txtArticle.setText(listArticle.get(position));
+        Picasso.get().load(listImage.get(position)).fit().centerCrop().into(image);
 
         mCurrentPosition = position;
     }

@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">News App</string>
+    <string name="app_name">Mak NEWS</string>
+    <string name="plus">+</string>
+    <string name="headline">Judul Berita</string>
+    <string name="article">Isi Berita</string>
+    <string name="image">URL Gambar</string>
+    <string name="add">Tambah</string>
     <string-array name="headlines">
         <item>Rusia melakukan latihan kapal selam nuklir di Laut Barents</item>
         <item>Twitter akan melabeli tweet yang memiliki konten dari media pemerintah Rusia</item>

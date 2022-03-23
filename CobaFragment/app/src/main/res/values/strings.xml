@@ -1,9 +1,19 @@
 <resources>
-    <string name="app_name">News App</string>
+    <string name="app_name">Mak NEWS</string>
+    <string name="plus">+</string>
+    <string name="headline">Headline</string>
+    <string name="article">Article</string>
+    <string name="image">Image URL</string>
+    <string name="add">Add</string>
     <string-array name="headlines">
         <item>Russia carries out nuclear submarine drills in Barents Sea</item>
         <item>Twitter to label tweets having content from Russian state media</item>
         <item>Russian music conductor fired by Munich over support for Putin</item>
+    </string-array>
+    <string-array name="image">
+        <item>https://cdn.discordapp.com/attachments/865222321475158016/948778870260264970/submarine.jpg</item>
+        <item>https://media.discordapp.net/attachments/865222321475158016/948779500731244604/unknown.png</item>
+        <item>https://media.discordapp.net/attachments/865222321475158016/948779531962023956/Valery_Gergiev.jpg</item>
     </string-array>
     <string-array name="articles">
         <item>

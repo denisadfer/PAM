@@ -12,17 +12,18 @@
         android:textColor="@color/black"
         android:textStyle="bold"/>
 
-<!--    <ImageView-->
-<!--        android:id="@+id/article_img"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:contentDescription="article image"/>-->
+    <ImageView
+        android:id="@+id/article_img"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:contentDescription="article_image" />
 
     <TextView
         android:id="@+id/article_content"
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:textSize="10pt"
-        android:textColor="@color/black"/>
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="10pt" />
 
 </LinearLayout>
